@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  margin-left: 10px;
+}
+.flexmenu {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Menu ul {
+  list-style: none;
+  align-items: center;
+}
+.Menu ul li {
+  display: inline-block;
+  margin-top: 10px;
+}
+.Menu {
+  margin: 5px;
+}
+.logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.imagen {
+  width: 100%;
+}
+#cuerpo {
+  background-color: white;
+}
+#cuerpo div {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+#fast-facts h2 {
+  padding-left: 10px;
+}
+#fast-facts .flexdivs {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#fast-facts {
+  background-color: #f2f2f2;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+#fast-facts .divs {
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  height: 170px;
+  border-radius: 15px;
+}
+#founders {
+  width: 100%;
+  margin: 10px;
+}
+.ImagenesF {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 15px;
+}
+.flexFounders {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.flexFounders .divF {
+  padding: 10px;
+  margin: 20px;
+}
+.imagenesH {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+}
+#History {
+  width: 100%;
+  margin: 10px;
+}
+.contenedorH {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.historydiv {
+  margin: 5px;
+  border: solid;
+  border-radius: 15px;
+  border-color: rgb(116, 111, 111);
+}
+#backgroundF {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+#backgroundF p {
+  margin-left: 10px;
+}
+.footerdiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerdiv .listasF {
+  margin: 80px;
+  list-style: none;
+}
+.listasF li {
+  margin-top: 5px;
+}
+
+ul.listasF :first-child {
+  font-size: 15px;
+  font-weight: bolder;
+}
